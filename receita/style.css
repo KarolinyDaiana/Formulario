@@ -1,0 +1,76 @@
+body {
+    background-color: #dcf3dc;
+}
+/* titulo */
+h1 {
+    background-color: #4ECDC4;
+    color: #FF6B6B;
+    font-size: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: dotted #1A535C 5px;
+    border-radius: 5px;
+}
+/* modo de preparo */
+h2 { 
+    background-color:#4ECDC4;
+    color: #FF6B6B;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: dotted #1A535C 5px;
+    border-radius: 5px;
+}
+/* ingredientes */
+h3{
+    background-color: #FFE66D;
+    color:#1A535C;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: dotted #4ECDC4 5px;
+    border-radius: 5px;
+}
+/* receita */
+pre {
+    color: #1A535C;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* final */
+p {
+    color: #1A535C;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* imagem */
+img {
+    border: solid #FFE66D 15px;
+    border-radius: 10px;
+}
+/*tabela*/
+table, th, td {
+    border: 5px, solid, #1A535C;
+    border-radius: 4px;
+
+    color: #1A535C;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+td, th {
+    background-color: #e9dda3;
+    padding: 5;
+}
+/*lista*/
+ul, ol, li {
+    color: #1A535C;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a {
+    color: #1A535C;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+form {
+    color: #1A535C;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

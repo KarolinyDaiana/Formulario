@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alata&family=Bungee+Shade&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <h3>Formulário para inscrição</h3>
+
+    <form action="obrigada.html" target="_blank">
+        <fieldset>
+            <legend><b>Forneça seu nome, endereço de email (não será publicado) e um comentário</b></legend>
+
+            <label for="nome">Nome*</label>
+            <input type="text" id="nome" name="nome" required><br><br>
+
+            <label for="email">Email*</label>
+            <input type="text" id="email" name="email" required><br><br>
+
+            <label for="url">URL</label>
+            <input type="text" id="url" name="url"><br><br>
+
+            <label for="cidade">Cidade*</label>
+            <input type="text" id="cidade" name="cidade" required><br><br>
+
+            <label for="estado">Selecione seu estado*:</label>
+            <select id="estado" name="estado" required>
+                <option value="Acre">Acre</option>
+                <option value="Alagoas">Alagoas</option>
+                <option value="Amapá">Amazonas</option>
+                <option value="Bahia">Bahia</option>
+                <option value="Ceará">Ceará</option>
+                <option value="Distrito Federal">Distrito Federal</option>
+                <option value="Espírito Santos">Espírito Santo</option>
+                <option value="Goiás">Goiás</option>
+                <option value="Maranhão">Maranhão</option>
+                <option value="Mato Grosso">Mato Grosso</option>
+                <option value="Mato Groso do Sul">Mato Grosso do Sul</option>
+                <option value="Minas Gerais">Minas Gerais</option>
+                <option value="Pará">Pará</option>
+                <option value="Paraíba">Paraíba</option>
+                <option value="Paraná">Paraíba</option>
+                <option value="Pernambuco">Pernambuco</option>
+                <option value="Piauí">Piauí</option>
+                <option value="Rio de Janeiro">Rio de Janeiro</option>
+                <option value="Rio Grande do Norte">Rio Grande do Norte</option>
+                <option value="Rio Grande do Sul">Rio Grande do Sul</option>
+                <option value="Rondônia">Rondônia</option>
+                <option value="Roraima">Roraima</option>
+                <option value="Santa Catarina">Santa Catarina</option>
+                <option value="São Paulo">São Paulo</option>
+                <option value="Sergipe">Sergipe</option>
+                <option value="Tocantins">Tocantins</option>
+            </select>
+            
+            <p>Deixe seu comentário*:</p>
+            <textarea name="comentario" id="comentario" rows="7" cols="30" required>Comente</textarea><br><br>
+
+            <input type="submit" value="Enviar">
+
+        </fieldset>
+    </form>
+
+    <hr>
+
+    <form action="obrigada.html" target="_blank">
+        <fieldset>
+            <legend><b>Validando um formulário completo</b></legend>
+
+            <label for="nome">Nome*</label>
+            <input type="text" id="nome" name="nome" required><br><br>
+
+            <label for="sobrenome">Sobrenome*</label>
+            <input type="text" id="sobrenome" name="sobrenome" required><br><br>
+
+            <label for="usuario">Nome de usuário*</label>
+            <input type="text" id="usuario" name="usuario" required><br><br>
+
+            <label for="senha">Senha*</label>
+            <input type="password" id="senha" name="senha" required><br><br>
+
+            <label for="confirma">Confirme a sua senha*</label>
+            <input type="password" id="confirma" name="confirma" required><br><br>
+
+            <label for="email">Email*</label>
+            <input type="text" id="email" name="email" required><br><br>
+
+            <input type="checkbox" id="politica" name="politica" value="politica">
+            <label for="politic">Por favor, concorde com a nossa política*</label><br><br>
+
+            <input type="checkbox" id="noticia" name="noticia" value="noticia">
+            <label for="nticia">Gostaria de receber nossas notícias por email?*</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Tópicos (selecione pelo menos dois)</legend>
+
+            <input type="checkbox" id="tecnologia" name="tecnologia" value="tecnologia">
+            <label for="tecnologia">Tecnologia</label>
+
+            <input type="checkbox" id="esporte" name="esporte" value="esporte">
+            <label for="esporte">Esporte</label>
+
+            <input type="checkbox" id="games" name="games" value="games">
+            <label for="games">Games</label><br>
+
+            <input type="checkbox" id="saude" name="saude" value="saude">
+            <label for="saude">Saúde</label>
+
+            <input type="checkbox" id="moda" name="moda" value="moda">
+            <label for="moda">Moda</label>
+
+            <input type="checkbox" id="comida" name="comida" value="comida">
+            <label for="comida">Comida</label>
+        </fieldset>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>

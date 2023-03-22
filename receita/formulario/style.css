@@ -1,0 +1,87 @@
+body {
+    background-color: #124E78;
+    margin: 15px;
+    margin-top: 5px;
+}
+
+h3 {
+    font-family: 'Bungee Shade', cursive;
+    color: #F2BB05;
+    font-size: 50px;
+    border: outset 10px #D74E09;
+    background-color: #F0F0C9;
+    text-align: center;
+}
+
+form {
+    background-color:#206799;
+    border:#D74E09 none;
+    border-radius: 10px;
+    color: #F2BB05;
+    font-family: 'Alata', sans-serif;
+    font-size: 20px;
+}
+
+fieldset {
+    border: outset 4px #D74E09;
+    border-radius: 10px;
+}
+
+input[type=text] {
+    padding: 10px;
+    border: #D74E09 outset 4px;
+    border-radius: 10px;
+    background-color: #F0F0C9;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    border: 4px solid #ab400a ;
+    width: 80%;
+}
+
+select {
+    padding: 7px;
+    border: outset 4px #ab400a;
+    border-radius: 10px;
+    background-color: #F0F0C9;
+    font-family: 'Alata', sans-serif;
+}
+
+textarea {
+    padding: 10px;
+    border: #D74E09 outset 4px;
+    border-radius: 10px;
+    background-color: #F0F0C9;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    font-family: 'Alata', sans-serif;
+    font-size: 18px;
+    background-color: #F2BB05;
+    border: #D74E09 outset 4px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+input[type=password] {
+    padding: 10px;
+    border: outset 4px #D74E09;
+    border-radius: 10px;
+    background-color: #F0F0C9;
+    
+}
+
+input[type=checkbox] {
+    padding: 10px;
+    border: outset 4px #D74E09;
+    border-radius: 10px;
+    background-color: #F0F0C9;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
